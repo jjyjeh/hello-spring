@@ -16,6 +16,7 @@ public class HelloController {
 		HashMap<Object, String> input = new HashMap<Object, String>();
 		input.put("dtlYn", "Y");
 		input.put("reqCd", "R");
+		input.put("reqCd", "N");
 		
 		
 		return "hello";
