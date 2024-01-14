@@ -17,6 +17,7 @@ public class HelloController {
 		input.put("dtlYn", "Y");
 		input.put("reqCd", "R");
 		input.put("reqCd", "N");
+		input.put("reqCd", "D");
 		
 		
 		return "hello";
