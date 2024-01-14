@@ -15,6 +15,8 @@ public class HelloController {
 		model.addAttribute("data", "hello!!");
 		HashMap<Object, String> input = new HashMap<Object, String>();
 		input.put("dtlYn", "Y");
+		input.put("reqCd", "R");
+		
 		
 		return "hello";
 	}
