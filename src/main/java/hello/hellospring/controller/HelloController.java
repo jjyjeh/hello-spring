@@ -19,7 +19,7 @@ public class HelloController {
 		input.put("reqCd", "N");
 		input.put("reqCd", "D");
 		input.put("reqCd", "Q");
-		
+		// 동해물과 백두산이 마르고 달도록
 		
 		return "hello";
 	}
