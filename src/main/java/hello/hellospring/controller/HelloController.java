@@ -20,6 +20,7 @@ public class HelloController {
 		input.put("reqCd", "D");
 		input.put("reqCd", "Q");
 		// 동해물과 백두산이 마르고 달도록
+		// 하느님이 보우하사 우리 나라 만세
 		
 		return "hello";
 	}
