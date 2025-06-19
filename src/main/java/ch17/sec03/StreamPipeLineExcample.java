@@ -11,7 +11,7 @@ public class StreamPipeLineExcample {
         );
 
         double avg = list.stream()
-                .mapToInt(Student -> Student.getScore())
+                .mapToInt(student -> student.getScore())
                 .average().getAsDouble();
 
         int tot = list.stream()
